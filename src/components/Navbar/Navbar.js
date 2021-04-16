@@ -15,14 +15,17 @@ import {
   MenuBarTwo,
   MenuBarThree,
 } from "./styled";
+import { Link } from "react-router-dom";
 import { AiOutlineSearch } from "react-icons/ai";
 function Navbar() {
   return (
     <Container>
       <NavbarLeft>
-        <Logo>
-          Steem<span>field</span>
-        </Logo>
+        <Link to="/">
+          <Logo>
+            Steem<span>field</span>
+          </Logo>
+        </Link>
       </NavbarLeft>
       <NavbarRight>
         <SearchBar>

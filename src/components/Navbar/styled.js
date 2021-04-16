@@ -36,6 +36,8 @@ export const Logo = styled.h1`
   line-height: 35px;
   letter-spacing: 0.02em;
   color: #2bf2ff;
+  user-select: none;
+  cursor: pointer;
 
   & span {
     color: #7248e7;
