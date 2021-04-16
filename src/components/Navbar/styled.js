@@ -15,8 +15,6 @@ export const NavbarRight = styled.div`
   justify-content: flex-end;
   align-items: center;
   height: 95px;
-  width: 50%;
-  flex-grow: 1;
 `;
 
 export const NavbarLeft = styled.div`
@@ -24,8 +22,6 @@ export const NavbarLeft = styled.div`
   justify-content: flex-start;
   align-items: center;
   height: 95px;
-  width: 50%;
-  flex-grow: 1;
 `;
 
 export const Logo = styled.h1`
