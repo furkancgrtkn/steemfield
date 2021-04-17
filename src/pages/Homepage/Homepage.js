@@ -1,6 +1,10 @@
 import React from "react";
 import Card from "../../components/Card/Card";
 import CoinCard from "../../components/CoinCard/CoinCard";
+import PostBoard from "../../components/PostBoard/PostBoard";
+import BannerBox from "../../components/BannerBox/BannerBox";
+import HomePosts from "../../components/HomePosts/HomePosts";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   SwiperContainer,
@@ -8,6 +12,9 @@ import {
   SwiperContainerCoin,
   CoinHeaderWrapper,
   CoinHeaderButton,
+  PostWrapper,
+  PostWrapperLeft,
+  PostWrapperRight,
 } from "./styled";
 function Homepage() {
   const MapCounter = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -35,6 +42,15 @@ function Homepage() {
           ))}
         </Swiper>
       </SwiperContainerCoin>
+      <PostWrapper>
+        <PostWrapperLeft>
+          <PostBoard />
+          <BannerBox />
+        </PostWrapperLeft>
+        <PostWrapperRight>
+          <HomePosts />
+        </PostWrapperRight>
+      </PostWrapper>
     </div>
   );
 }

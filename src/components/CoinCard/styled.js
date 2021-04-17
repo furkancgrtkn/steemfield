@@ -12,8 +12,6 @@ export const CoinCard = styled.div`
 export const ImageWrapper = styled.div`
   display: flex;
   position: absolute;
-  top: 0;
-  left: 0;
   width: 216px;
   height: 77.56px;
   left: 50%;

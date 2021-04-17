@@ -58,3 +58,27 @@ export const CoinHeaderButton = styled.button`
   background: transparent;
   border: none;
 `;
+
+export const PostWrapper = styled.div`
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  padding: 0 55px;
+  margin-top: 40px;
+`;
+
+export const PostWrapperLeft = styled.div`
+  display: flex;
+  width: 360px;
+  height: fit-content;
+  flex-direction: column;
+`;
+
+export const PostWrapperRight = styled.div`
+  display: flex;
+  width: calc(100% - 360px);
+  flex-direction: column;
+  height: fit-content;
+  padding-left: 20px;
+`;

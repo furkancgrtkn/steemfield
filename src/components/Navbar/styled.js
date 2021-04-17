@@ -7,7 +7,6 @@ export const Navbar = styled.div`
   height: 95px;
   width: 100%;
   padding: 0 55px;
-  max-width: 1920px;
 `;
 
 export const NavbarRight = styled.div`
