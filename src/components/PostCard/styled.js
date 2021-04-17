@@ -20,7 +20,7 @@ export const PostCard = styled.div`
     justify-content: center;
     padding: 0 15px 0 15px;
   }
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     height: fit-content;
     padding: 15px;
   }
@@ -69,7 +69,6 @@ export const PostCardContent = styled.div`
     margin-top: 10px;
     width: 100%;
     padding: 5px;
-    padding-bottom: 0;
     height: fit-content;
   }
 `;
@@ -87,7 +86,7 @@ export const ContentHeader = styled.div`
     align-items: flex-start;
     margin-top: 0;
   }
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 45px;
@@ -97,7 +96,7 @@ export const ContentHeader = styled.div`
 export const ContentHeaderLeft = styled.div`
   display: flex;
   align-items: center;
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -108,7 +107,7 @@ export const ContentHeaderRight = styled.div`
   @media (max-width: 940px) {
     margin-top: 10px;
   }
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     flex-direction: column;
     align-items: flex-end;
     margin-top: 0px;
@@ -118,7 +117,7 @@ export const ContentHeaderRight = styled.div`
 export const RightSection = styled.div`
   display: flex;
 
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     &:last-child {
       margin-top: 8px;
     }
@@ -128,9 +127,9 @@ export const RightSection = styled.div`
 export const LeftSection = styled.div`
   display: flex;
 
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     position: absolute;
-    bottom: -25px;
+    bottom: -28px;
     left: 0;
     width: 170px;
     justify-content: space-between;
@@ -152,7 +151,7 @@ export const UserImage = styled.div`
     width: 40px;
     height: 40px;
   }
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     margin-bottom: 10px;
   }
 `;
@@ -177,7 +176,7 @@ export const UserName = styled.div`
     font-size: 14px;
     line-height: 18px;
   }
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     margin-left: 0px;
   }
 `;
@@ -194,7 +193,7 @@ export const Info = styled.div`
   @media (max-width: 940px) {
     margin-left: 15px;
   }
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     margin-left: 0px;
     margin-top: 3px;
   }
@@ -236,7 +235,7 @@ export const Stats = styled.div`
     margin-left: 0;
     margin-right: 13px;
   }
-  @media (max-width: 406px) {
+  @media (max-width: 600px) {
     margin-left: 15px;
     margin-right: 0px;
     align-items: flex-end;
