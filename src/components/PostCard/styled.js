@@ -21,7 +21,8 @@ export const PostCard = styled.div`
     padding: 0 15px 0 15px;
   }
   @media (max-width: 406px) {
-    height: 430px;
+    height: fit-content;
+    padding: 15px;
   }
 `;
 
@@ -58,8 +59,7 @@ export const PostCardContent = styled.div`
     margin-top: 10px;
     width: 100%;
     padding: 5px;
-  }
-  @media (max-width: 406px) {
+    padding-bottom: 0;
     height: fit-content;
   }
 `;
@@ -68,6 +68,7 @@ export const ContentHeader = styled.div`
   display: flex;
   width: 100%;
   align-items: center;
+  position: relative;
   height: fit-content;
   margin: 15px 0;
   justify-content: space-between;
@@ -79,6 +80,7 @@ export const ContentHeader = styled.div`
   @media (max-width: 406px) {
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 45px;
   }
 `;
 
@@ -98,8 +100,30 @@ export const ContentHeaderRight = styled.div`
   }
   @media (max-width: 406px) {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     margin-top: 0px;
+  }
+`;
+
+export const RightSection = styled.div`
+  display: flex;
+
+  @media (max-width: 406px) {
+    &:last-child {
+      margin-top: 8px;
+    }
+  }
+`;
+
+export const LeftSection = styled.div`
+  display: flex;
+
+  @media (max-width: 406px) {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 170px;
+    justify-content: space-between;
   }
 `;
 
@@ -199,14 +223,13 @@ export const Stats = styled.div`
   }
 
   @media (max-width: 940px) {
-    &:first-child {
-      margin-left: 0;
-    }
+    margin-left: 0;
+    margin-right: 13px;
   }
   @media (max-width: 406px) {
-    margin-left: 0px;
-    margin-top: 3px;
-    align-self: flex-end;
+    margin-left: 15px;
+    margin-right: 0px;
+    align-items: flex-end;
   }
 `;
 

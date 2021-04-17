@@ -15,6 +15,8 @@ import {
   ContentDesc,
   DescHeader,
   DescText,
+  LeftSection,
+  RightSection,
 } from "./styled";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { BiTime } from "react-icons/bi";
@@ -49,40 +51,45 @@ function PostCard() {
               />
             </UserImage>
             <UserName>max-pro</UserName>
-            <Info>
-              <BiTime color="#FFFFFF" size="17" />
-              <InfoText>1 hour ago</InfoText>
-            </Info>
-            <Info>
-              <FaHashtag color="#7248E7" size="17" />
-              <InfoText>random</InfoText>
-            </Info>
+            <LeftSection>
+              <Info>
+                <BiTime color="#FFFFFF" size="17" />
+                <InfoText>1 hour ago</InfoText>
+              </Info>
+              <Info>
+                <FaHashtag color="#7248E7" size="17" />
+                <InfoText>random</InfoText>
+              </Info>
+            </LeftSection>
           </ContentHeaderLeft>
           <ContentHeaderRight>
-            <Stats>
-              <AiTwotoneHeart color="#FF0045" size="17" />
-              <StatsText normal>22</StatsText>
-            </Stats>
-            <Stats>
-              <FaHeartBroken color="#ffffff" size="17" />
-              <StatsText normal>22</StatsText>
-            </Stats>
-            <Stats>
-              <FiRepeat color="#ffffff" size="17" />
-              <StatsText normal>22</StatsText>
-            </Stats>
-
-            <Stats>
-              <FcCurrencyExchange size="17" />
-              <StatsText>107.88</StatsText>
-            </Stats>
-            <Stats>
-              <FaComment color="#ffffff" size="17" />
-              <StatsText>124</StatsText>
-            </Stats>
-            <Stats>
-              <RiArrowGoForwardLine color="#ffffff" size="17" />
-            </Stats>
+            <RightSection>
+              <Stats>
+                <AiTwotoneHeart color="#FF0045" size="17" />
+                <StatsText normal>22</StatsText>
+              </Stats>
+              <Stats>
+                <FaHeartBroken color="#ffffff" size="17" />
+                <StatsText normal>22</StatsText>
+              </Stats>
+              <Stats>
+                <FiRepeat color="#ffffff" size="17" />
+                <StatsText normal>22</StatsText>
+              </Stats>
+            </RightSection>
+            <RightSection>
+              <Stats>
+                <FcCurrencyExchange size="17" />
+                <StatsText>107.88</StatsText>
+              </Stats>
+              <Stats>
+                <FaComment color="#ffffff" size="17" />
+                <StatsText>124</StatsText>
+              </Stats>
+              <Stats>
+                <RiArrowGoForwardLine color="#ffffff" size="17" />
+              </Stats>
+            </RightSection>
           </ContentHeaderRight>
         </ContentHeader>
         <ContentDesc>
