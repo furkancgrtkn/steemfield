@@ -101,6 +101,7 @@ export const Title = styled.h1`
   margin-bottom: 21px;
 `;
 export const Row = styled.h3`
+  cursor: pointer;
   font-family: Montserrat;
   font-weight: 600;
   font-size: 15px;
@@ -108,6 +109,11 @@ export const Row = styled.h3`
   color: #ffffff;
   opacity: 0.7;
   margin-bottom: 11px;
+  user-select: none;
+  &:active {
+    transform: scale(0.95);
+    transition: 0.1s;
+  }
 `;
 
 export const CoinsRow = styled.div`
@@ -119,6 +125,8 @@ export const CoinsRow = styled.div`
   margin-top: 42px;
 
   & > h3 {
+    user-select: none;
+    cursor: pointer;
     display: flex;
     align-items: center;
     font-family: Montserrat;
@@ -129,10 +137,22 @@ export const CoinsRow = styled.div`
     padding: 0 58.5px;
     line-height: 22px;
   }
+
+  & > h3:active {
+    transform: scale(0.95);
+    transition: 0.1s;
+  }
+
   & > h3:first-child {
+    cursor: unset;
     padding: 0;
     margin-right: auto;
   }
+
+  & > h3:first-child:active {
+    transform: unset;
+  }
+
   & > h3:last-child {
     padding: 0;
     margin-left: auto;
@@ -170,12 +190,19 @@ export const Bottom = styled.div`
   padding-bottom: 32px;
   justify-content: flex-end;
   & > h3 {
+    user-select: none;
+    cursor: pointer;
     font-family: Montserrat;
     font-weight: 600;
     font-size: 15px;
     color: #ffffff;
     opacity: 0.7;
-    padding-left: 54px;
+    margin-left: 54px;
+  }
+
+  & > h3:active {
+    transform: scale(0.95);
+    transition: 0.1s;
   }
 
   @media (max-width: 500px) {
@@ -183,15 +210,15 @@ export const Bottom = styled.div`
     padding-right: 0px;
     justify-content: space-evenly;
     & > h3 {
-      padding: 0;
+      margin: 0;
     }
   }
 
   @media (max-width: 400px) {
     flex-direction: column;
-    padding-left: 23px;
+    margin-left: 23px;
     & > h3 {
-      padding-bottom: 10px;
+      margin-bottom: 10px;
     }
   }
 `;
