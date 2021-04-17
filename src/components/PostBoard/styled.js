@@ -18,6 +18,12 @@ export const PostListItem = styled.li`
   margin-bottom: ${(props) => (props.firstChild ? "15px" : "0")};
   margin-top: ${(props) => (props.firstChild ? "15px" : "4px")};
   cursor: pointer;
+  @media (max-width: 1350px) {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: ${(props) => (props.firstChild ? "10px" : "0")};
+    margin-top: ${(props) => (props.firstChild ? "10px" : "4px")};
+  }
 `;
 
 export const PostBoard = styled.div`
@@ -25,7 +31,7 @@ export const PostBoard = styled.div`
   flex-direction: column;
   height: fit-content;
   background: #1a2249;
-  width: 360px;
+  width: 100%;
   padding: 25px 35px;
   & > ul:last-child > li:last-child {
     margin-bottom: 0;
@@ -40,4 +46,8 @@ export const Header = styled.h2`
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #ffffff;
+  @media (max-width: 1350px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 `;

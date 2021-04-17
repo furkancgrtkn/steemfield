@@ -7,6 +7,12 @@ export const Card = styled.div`
   border-radius: 20px;
   background-color: #30385a;
   position: relative;
+
+  @media (max-width: 1100px) {
+    padding-left: 20px;
+    width: 280px;
+    height: 280px;
+  }
 `;
 
 export const CardBlock = styled.div`
@@ -26,6 +32,9 @@ export const CardBlock = styled.div`
   );
   padding: 11px 12px;
   padding-bottom: 19px;
+  @media (max-width: 1100px) {
+    height: 150px;
+  }
 `;
 
 export const Title = styled.div`
@@ -49,9 +58,19 @@ export const Title = styled.div`
   }
 
   & svg {
-    width: 22px;
-    height: 22px;
     margin-right: 9px;
+  }
+
+  @media (max-width: 1100px) {
+    & > h1 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    & span {
+      font-size: 12px;
+      line-height: 14px;
+    }
   }
 `;
 
@@ -64,6 +83,11 @@ export const UserImage = styled.div`
     object-fit: cover;
     border-radius: 100%;
   }
+
+  @media (max-width: 1100px) {
+    width: 40px;
+    height: 40px;
+  }
 `;
 
 export const Description = styled.p`
@@ -73,20 +97,21 @@ export const Description = styled.p`
   line-height: 20px;
   color: #ffffff;
   margin-bottom: 12px;
+
+  @media (max-width: 1100px) {
+    font-size: 12px;
+    line-height: 16px;
+  }
 `;
 
 export const Footer = styled.div`
   display: flex;
   align-items: center;
   & svg {
-    width: 17px;
-    height: 17px;
     margin-right: 4px;
   }
   & svg:last-child {
     margin-right: unset;
-    width: 22px;
-    height: 22px;
   }
 
   & > div {
@@ -103,6 +128,13 @@ export const Footer = styled.div`
     font-size: 18px;
     line-height: 21px;
     color: #ffffff;
+  }
+
+  @media (max-width: 1100px) {
+    & span {
+      font-size: 14px;
+      line-height: 16px;
+    }
   }
 `;
 

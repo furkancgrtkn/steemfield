@@ -4,10 +4,12 @@ import {
   FilterButtons,
   FilterButtonsItem,
   FilterButton,
+  PostCards,
 } from "./styled";
-
+import PostCard from "../PostCard/PostCard";
 function HomePosts() {
   const [filter, setFilter] = useState("new");
+  const PostMapper = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   return (
     <Container>
       <FilterButtons>
@@ -44,6 +46,11 @@ function HomePosts() {
           </FilterButton>
         </FilterButtonsItem>
       </FilterButtons>
+      <PostCards>
+        {PostMapper.map((postMap, index) => (
+          <PostCard key={index} />
+        ))}
+      </PostCards>
     </Container>
   );
 }

@@ -7,6 +7,9 @@ export const CoinCard = styled.div`
   background: #1a2249;
   justify-content: center;
   position: relative;
+  @media (max-width: 1100px) {
+    width: 250px;
+  }
 `;
 
 export const ImageWrapper = styled.div`
@@ -31,8 +34,11 @@ export const CoinDescription = styled.div`
   background: #1a2249;
   padding: 0 34px;
   align-self: flex-end;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   position: relative;
+  @media (max-width: 1100px) {
+    padding: 0 14px;
+  }
 `;
 
 export const CoinName = styled.div`
