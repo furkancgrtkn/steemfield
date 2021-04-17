@@ -8,7 +8,6 @@ import {
   Footer,
   UserImage,
 } from "./styled";
-
 import { BiTime } from "react-icons/bi";
 import { AiTwotoneHeart } from "react-icons/ai";
 import { FaHeartBroken, FaComment } from "react-icons/fa";
@@ -16,6 +15,7 @@ import { FcCurrencyExchange } from "react-icons/fc";
 import { RiArrowGoForwardLine } from "react-icons/ri";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/opacity.css";
+
 function Card() {
   return (
     <Container>
@@ -47,7 +47,7 @@ function Card() {
               marginLeft: "auto",
             }}
           >
-            <BiTime color="CCD2E3" />
+            <BiTime size="20" color="CCD2E3" />
             <span>1 hour ago</span>
           </div>
         </Title>
@@ -58,24 +58,24 @@ function Card() {
         </Description>
         <Footer>
           <div>
-            <AiTwotoneHeart color="#FF0045" />
+            <AiTwotoneHeart size="17" color="#FF0045" />
             <span>22</span>
           </div>
           <div>
-            <FaHeartBroken color="FFFFFF" />
+            <FaHeartBroken size="17" color="FFFFFF" />
             <span>22</span>
           </div>
           <div>
-            <FaComment color="FFFFFF" />
+            <FaComment size="17" color="FFFFFF" />
             <span>0</span>
           </div>
           <div>
-            <FcCurrencyExchange />
+            <FcCurrencyExchange size="17" />
             <span>107.88</span>
           </div>
 
           <div style={{ marginLeft: "auto" }}>
-            <RiArrowGoForwardLine color="FFFFFF" />
+            <RiArrowGoForwardLine size="20" color="FFFFFF" />
           </div>
         </Footer>
       </CardBlock>
