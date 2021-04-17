@@ -4,8 +4,6 @@ import {
   Navbar as Container,
   NavbarRight,
   NavbarLeft,
-  SearchBarInput,
-  SearchBarIcon,
   SearchBar,
   AuthWrapper,
   AuthButton,
@@ -16,7 +14,8 @@ import {
   MenuBarThree,
 } from "./styled";
 import { Link } from "react-router-dom";
-import { AiOutlineSearch } from "react-icons/ai";
+import SearchBox from "../SearchBox/SearchBox";
+
 function Navbar() {
   return (
     <Container>
@@ -29,10 +28,7 @@ function Navbar() {
       </NavbarLeft>
       <NavbarRight>
         <SearchBar>
-          <SearchBarInput placeholder="Search.."></SearchBarInput>
-          <SearchBarIcon>
-            <AiOutlineSearch color="#2BF2FF" size="16" />
-          </SearchBarIcon>
+          <SearchBox />
         </SearchBar>
         <AuthWrapper>
           <AuthButton color="#2BF2FF">Log In</AuthButton>
