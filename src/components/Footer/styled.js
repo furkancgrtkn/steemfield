@@ -4,10 +4,13 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   border-top: 1px solid #c2c1c1;
-
   margin-top: 55px;
-  margin-left: 56px;
-  margin-right: 56px;
+  margin-left: 55px;
+  margin-right: 55px;
+  @media (max-width: 1350px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 `;
 
 export const Logo = styled.h1`
