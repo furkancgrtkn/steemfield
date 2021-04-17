@@ -37,6 +37,17 @@ export const CardBlock = styled.div`
   }
 `;
 
+export const IconWrapper = styled.div`
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+  background-color: transparent;
+  & img {
+    object-fit: cover;
+  }
+`;
+
 export const Title = styled.div`
   display: flex;
   align-items: center;

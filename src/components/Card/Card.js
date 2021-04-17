@@ -7,14 +7,15 @@ import {
   Description,
   Footer,
   UserImage,
+  IconWrapper,
 } from "./styled";
 import { BiTime } from "react-icons/bi";
 import { AiTwotoneHeart } from "react-icons/ai";
 import { FaHeartBroken, FaComment } from "react-icons/fa";
-import { FcCurrencyExchange } from "react-icons/fc";
 import { RiArrowGoForwardLine } from "react-icons/ri";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/opacity.css";
+import ExchangeIcon from "../../icons/exchange.svg";
 
 function Card() {
   return (
@@ -70,7 +71,9 @@ function Card() {
             <span>0</span>
           </div>
           <div>
-            <FcCurrencyExchange size="17" />
+            <IconWrapper>
+              <img src={ExchangeIcon} alt="Exchange Icon" />
+            </IconWrapper>
             <span>107.88</span>
           </div>
 

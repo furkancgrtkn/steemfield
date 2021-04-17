@@ -16,16 +16,16 @@ import {
   DescHeader,
   DescText,
   LeftSection,
+  IconWrapper,
   RightSection,
 } from "./styled";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { BiTime } from "react-icons/bi";
 import { AiTwotoneHeart } from "react-icons/ai";
 import { FaHeartBroken, FaComment, FaHashtag } from "react-icons/fa";
-import { FcCurrencyExchange } from "react-icons/fc";
 import { RiArrowGoForwardLine } from "react-icons/ri";
 import { FiRepeat } from "react-icons/fi";
-
+import ExchangeIcon from "../../icons/exchange.svg";
 function PostCard() {
   return (
     <Container>
@@ -79,7 +79,9 @@ function PostCard() {
             </RightSection>
             <RightSection>
               <Stats>
-                <FcCurrencyExchange size="17" />
+                <IconWrapper>
+                  <img src={ExchangeIcon} alt="Exchange Icon" />
+                </IconWrapper>
                 <StatsText>107.88</StatsText>
               </Stats>
               <Stats>

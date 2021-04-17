@@ -45,6 +45,16 @@ export const ImageWrapper = styled.div`
   }
 `;
 
+export const IconWrapper = styled.div`
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  & img {
+    object-fit: cover;
+  }
+`;
+
 export const PostCardContent = styled.div`
   display: flex;
   width: calc(100% - 157px);
