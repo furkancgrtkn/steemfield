@@ -4,6 +4,7 @@ import CoinCard from "../../components/CoinCard/CoinCard";
 import PostBoard from "../../components/PostBoard/PostBoard";
 import BannerBox from "../../components/BannerBox/BannerBox";
 import HomePosts from "../../components/HomePosts/HomePosts";
+import Footer from "../../components/Footer/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
@@ -51,6 +52,7 @@ function Homepage() {
           <HomePosts />
         </PostWrapperRight>
       </PostWrapper>
+      <Footer />
     </div>
   );
 }
