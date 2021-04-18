@@ -156,9 +156,6 @@ export const UserImage = styled.div`
     height: 40px;
   }
   @media (max-width: 600px) {
-    margin-bottom: 10px;
-  }
-  @media (max-width: 385px) {
     margin-bottom: 20px;
   }
 `;
