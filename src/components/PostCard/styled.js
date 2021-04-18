@@ -190,6 +190,7 @@ export const UserName = styled.div`
 export const Info = styled.div`
   display: flex;
   margin-left: 50px;
+  align-items: center;
   @media (max-width: 1580px) {
     margin-left: 35px;
   }
