@@ -53,6 +53,8 @@ export const IconWrapper = styled.div`
   & img {
     object-fit: cover;
   }
+
+  margin-right: 5px;
 `;
 
 export const PostCardContent = styled.div`
@@ -155,6 +157,9 @@ export const UserImage = styled.div`
   }
   @media (max-width: 600px) {
     margin-bottom: 10px;
+  }
+  @media (max-width: 385px) {
+    margin-bottom: 20px;
   }
 `;
 
