@@ -53,7 +53,7 @@ export const Title = styled.div`
   align-items: center;
   margin-bottom: 5px;
   & > h1 {
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -61,7 +61,7 @@ export const Title = styled.div`
   }
 
   & span {
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
@@ -102,7 +102,7 @@ export const UserImage = styled.div`
 `;
 
 export const Description = styled.p`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
@@ -136,7 +136,7 @@ export const Footer = styled.div`
   }
 
   & span {
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     line-height: 21px;
     color: #ffffff;

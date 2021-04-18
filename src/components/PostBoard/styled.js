@@ -7,7 +7,7 @@ export const PostList = styled.ul`
 `;
 
 export const PostListItem = styled.li`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   width: fit-content;
   font-weight: ${(props) => (props.firstChild ? "600" : "500")};
@@ -39,7 +39,7 @@ export const PostBoard = styled.div`
 `;
 
 export const Header = styled.h2`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;

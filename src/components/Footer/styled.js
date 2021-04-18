@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Logo = styled.h1`
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -35,7 +35,7 @@ export const InfoCol = styled.div`
   display: flex;
   flex-direction: column;
   & > h4 {
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
@@ -94,7 +94,7 @@ export const Col = styled.div`
   }
 `;
 export const Title = styled.h1`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -105,7 +105,7 @@ export const Title = styled.h1`
 `;
 export const Row = styled.h3`
   cursor: pointer;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
@@ -132,7 +132,7 @@ export const CoinsRow = styled.div`
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 15px;
     color: #ffffff;
@@ -195,7 +195,7 @@ export const Bottom = styled.div`
   & > h3 {
     user-select: none;
     cursor: pointer;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 15px;
     color: #ffffff;

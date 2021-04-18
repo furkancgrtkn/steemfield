@@ -42,7 +42,7 @@ export const CoinDescription = styled.div`
 `;
 
 export const CoinName = styled.div`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -52,7 +52,7 @@ export const CoinName = styled.div`
 `;
 
 export const CoinValue = styled.div`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;

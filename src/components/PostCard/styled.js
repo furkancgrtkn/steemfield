@@ -159,7 +159,7 @@ export const UserImage = styled.div`
 `;
 
 export const UserName = styled.div`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -205,7 +205,7 @@ export const InfoText = styled.span`
   display: flex;
   margin-left: 4px;
   align-items: center;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -247,7 +247,7 @@ export const Stats = styled.div`
 export const StatsText = styled.span`
   display: flex;
   margin-left: 4px;
-  font-family: Roboto;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: ${(props) => (props.normal ? "400" : "600")};
   font-size: 18px;
@@ -270,7 +270,7 @@ export const ContentDesc = styled.div`
 `;
 
 export const DescHeader = styled.h2`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -287,7 +287,7 @@ export const DescHeader = styled.h2`
 `;
 
 export const DescText = styled.p`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;

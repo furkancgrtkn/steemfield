@@ -41,7 +41,7 @@ export const BoxInner = styled.div`
 `;
 
 export const BoxInnerHeader = styled.h3`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -56,7 +56,7 @@ export const BoxInnerHeader = styled.h3`
 `;
 
 export const BoxInnerDesc = styled.h3`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -81,7 +81,7 @@ export const BoxInnerButton = styled.button`
   height: 47px;
   background: #ef943b;
   border-radius: 10px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;

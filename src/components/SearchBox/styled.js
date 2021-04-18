@@ -30,14 +30,14 @@ export const SearchBarInput = styled.input`
   padding-right: 20px;
   border-bottom: 2px solid #7248e7;
   color: #ccd2e3;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: -0.05em;
   &::placeholder {
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;

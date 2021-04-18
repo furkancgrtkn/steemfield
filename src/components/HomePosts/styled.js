@@ -24,7 +24,7 @@ export const FilterButtonsItem = styled.li`
 `;
 
 export const FilterButton = styled.button`
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;

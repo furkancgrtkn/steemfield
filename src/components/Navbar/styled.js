@@ -27,7 +27,7 @@ export const NavbarLeft = styled.div`
 `;
 
 export const Logo = styled.h1`
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -80,7 +80,7 @@ export const AuthButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
