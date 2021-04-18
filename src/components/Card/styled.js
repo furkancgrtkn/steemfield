@@ -118,6 +118,7 @@ export const Description = styled.p`
 export const Footer = styled.div`
   display: flex;
   align-items: center;
+  height: 22px;
   & svg {
     margin-right: 4px;
   }

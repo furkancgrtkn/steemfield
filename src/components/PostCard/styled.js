@@ -116,6 +116,7 @@ export const ContentHeaderRight = styled.div`
 
 export const RightSection = styled.div`
   display: flex;
+  height: 22px;
 
   @media (max-width: 600px) {
     &:last-child {
@@ -126,6 +127,7 @@ export const RightSection = styled.div`
 
 export const LeftSection = styled.div`
   display: flex;
+  height: 22px;
 
   @media (max-width: 600px) {
     position: absolute;
@@ -292,7 +294,7 @@ export const DescText = styled.p`
   line-height: 22px;
   color: #ffffff;
   margin-top: 5px;
-  height: 44px;
+  height: 43px;
   width: 100%;
   overflow: hidden;
   @media (max-width: 1580px) {
