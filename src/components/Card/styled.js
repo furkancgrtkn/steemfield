@@ -45,6 +45,8 @@ export const IconWrapper = styled.div`
   background-color: transparent;
   & img {
     object-fit: cover;
+    width: 21;
+    height: 21;
   }
 `;
 
