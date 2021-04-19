@@ -41,6 +41,11 @@ export const Logo = styled.h1`
     color: #7248e7;
     font-weight: 300;
   }
+
+  @media only screen and (max-width: 800px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
 `;
 
 export const SearchBar = styled.div`
@@ -100,9 +105,13 @@ export const Menu = styled.div`
   justify-content: space-between;
   flex-direction: column;
   width: 42px;
-  height: 20px;
+  height: 21px;
   user-select: none;
   cursor: pointer;
+  @media only screen and (max-width: 800px) {
+    width: 32px;
+    height: 21px;
+  }
 `;
 
 export const MenuBarOne = styled.div`
@@ -113,6 +122,9 @@ export const MenuBarOne = styled.div`
   height: 0px;
   background: #ccd2e3;
   align-self: flex-end;
+  @media only screen and (max-width: 800px) {
+    width: 32px;
+  }
 `;
 
 export const MenuBarTwo = styled.div`
@@ -123,6 +135,9 @@ export const MenuBarTwo = styled.div`
   height: 0px;
   background: #ccd2e3;
   align-self: flex-end;
+  @media only screen and (max-width: 800px) {
+    width: 20px;
+  }
 `;
 
 export const MenuBarThree = styled.div`
@@ -133,4 +148,7 @@ export const MenuBarThree = styled.div`
   height: 0px;
   background: #ccd2e3;
   align-self: flex-end;
+  @media only screen and (max-width: 800px) {
+    width: 8px;
+  }
 `;

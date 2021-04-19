@@ -8,7 +8,7 @@ export const BannerContainer = styled.div`
   padding: 0 30px;
 
   @media only screen and (max-width: 840px) {
-    padding: 0 20px;
+    padding: 0 5px 0 15px;
   }
 `;
 

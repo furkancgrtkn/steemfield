@@ -20,6 +20,10 @@ export const Wrapper = styled.div`
     transform: ${(props) =>
       props.open ? css`translateX(0px)` : css`translateX(-179px)`};
   }
+  @media only screen and (max-width: 500px) {
+    transform: ${(props) =>
+      props.open ? css`translateX(0px)` : css`translateX(-210px)`};
+  }
 `;
 
 export const IconWrap = styled.div`
@@ -34,6 +38,7 @@ export const IconWrap = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   transition: 0.5s;
   @media only screen and (max-width: 800px) {
     width: 40px;
@@ -43,6 +48,16 @@ export const IconWrap = styled.div`
     & > svg {
       width: 25px;
       height: 25px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    width: 27px;
+    height: 27px;
+    transform: ${(props) =>
+      props.open ? css`translateX(0px)` : css`translateX(200px)`};
+    & > svg {
+      width: 23px;
+      height: 23px;
     }
   }
 `;
@@ -82,6 +97,7 @@ export const UsersWrap = styled.div`
 export const UserWrap = styled.div`
   display: flex;
   align-items: center;
+  cursor: pointer;
   & > span {
     padding-left: 10px;
     font-family: "Montserrat", sans-serif;

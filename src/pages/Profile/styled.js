@@ -6,6 +6,9 @@ export const ProfileWrapper = styled.div`
   padding-left: 80px;
   height: fit-content;
   width: 100%;
+  @media only screen and (max-width: 500px) {
+    padding-left: 30px;
+  }
 `;
 
 export const PostSection = styled.div`
@@ -15,6 +18,9 @@ export const PostSection = styled.div`
   padding: 0 20px;
   & > div:first-child {
     margin-top: 10px;
+  }
+  @media only screen and (max-width: 500px) {
+    padding: 0 5px 0 15px;
   }
 `;
 

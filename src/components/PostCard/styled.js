@@ -93,7 +93,7 @@ export const ContentHeader = styled.div`
   @media only screen and (max-width: 600px) {
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 65px;
   }
 `;
 
@@ -135,7 +135,7 @@ export const LeftSection = styled.div`
 
   @media only screen and (max-width: 600px) {
     position: absolute;
-    bottom: -28px;
+    bottom: -48px;
     left: 0;
     width: 170px;
     justify-content: space-between;
@@ -184,6 +184,9 @@ export const UserName = styled.div`
   }
   @media only screen and (max-width: 600px) {
     margin-left: 0px;
+    position: absolute;
+    top: 65px;
+    white-space: nowrap;
   }
 `;
 
@@ -310,5 +313,6 @@ export const DescText = styled.p`
   @media only screen and (max-width: 1040px) {
     font-size: 12px;
     line-height: 14px;
+    height: 40px;
   }
 `;

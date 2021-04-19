@@ -100,7 +100,15 @@ function PostCard() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum
             diam leo purus imperdiet. In volutpat lacus curabitur non netus
             malesuada. Interdum cursussa Fermentum diam leo purus imperdiet. In
-            volutpat lacus curabitur non netus malesuada.
+            volutpat lacus curabitur non netus malesuada. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Fermentum diam leo purus
+            imperdiet. In volutpat lacus curabitur non netus malesuada. Interdum
+            cursussa Fermentum diam leo purus imperdiet. In volutpat lacus
+            curabitur non netus malesuada. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Fermentum diam leo purus imperdiet. In
+            volutpat lacus curabitur non netus malesuada. Interdum cursussa
+            Fermentum diam leo purus imperdiet. In volutpat lacus curabitur non
+            netus malesuada.
           </DescText>
         </ContentDesc>
       </PostCardContent>

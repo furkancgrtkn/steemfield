@@ -16,7 +16,7 @@ export const TabContainer = styled.div`
     margin-top: 0px;
   }
   @media only screen and (max-width: 840px) {
-    padding: 0 20px;
+    padding: 0 5px 0 15px;
   }
 `;
 

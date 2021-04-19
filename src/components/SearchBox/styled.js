@@ -13,6 +13,7 @@ export const SearchBarIcon = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   height: 16px;
   width: 16px;
   position: absolute;

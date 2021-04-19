@@ -8,13 +8,12 @@ import {
   UsersWrap,
   UserWrap,
 } from "./styled";
-import { Link } from "react-router-dom";
 import { IoChevronForwardOutline, IoChevronBackOutline } from "react-icons/io5";
 import SearchBox from "../SearchBox/SearchBox";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function SideBar() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const usersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 
   return (
