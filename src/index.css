@@ -37,7 +37,7 @@ input:focus {
 }
 
 button:active {
-  transform: scale(0.95);
+  transform: scale(0.96);
   transition: 0.1s;
 }
 

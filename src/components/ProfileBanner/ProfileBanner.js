@@ -8,6 +8,8 @@ import {
   UserName,
   UserElips,
   Times,
+  ProfileInfosBottom,
+  InfoText,
 } from "./styled";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import CalendarIcon from "../../icons/calendaricon.svg";
@@ -48,6 +50,13 @@ function ProfileBanner() {
             <span>Active 4 hours ago</span>
           </Times>
         </ProfileInfosTop>
+        <ProfileInfosBottom>
+          <InfoText>1770 Followers</InfoText>
+          <InfoText>8214 Posts</InfoText>
+          <InfoText>1472 Following</InfoText>
+          <InfoText>11,069 SP</InfoText>
+          <InfoText>#504</InfoText>
+        </ProfileInfosBottom>
       </ProfileInfos>
     </BannerContainer>
   );
