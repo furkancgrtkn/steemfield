@@ -15,6 +15,8 @@ export const BannerContainer = styled.div`
 export const BannerWrapper = styled.div`
   display: flex;
   width: 100%;
+  height: 260px;
+
   & img {
     object-fit: cover;
   }
