@@ -41,8 +41,8 @@ function SideBar() {
           </Search>
 
           <UsersWrap>
-            {usersArray.map((user) => (
-              <UserWrap>
+            {usersArray.map((user, index) => (
+              <UserWrap key={index}>
                 <ImageWrapper>
                   <LazyLoadImage
                     alt="User"
