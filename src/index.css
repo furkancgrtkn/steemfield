@@ -27,6 +27,7 @@ a:hover {
 button {
   cursor: pointer;
   border: none;
+  user-select: none;
 }
 
 button:focus,

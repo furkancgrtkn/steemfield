@@ -7,7 +7,7 @@ export const Navbar = styled.div`
   height: 95px;
   width: 100%;
   padding: 0 55px;
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     padding: 0 20px;
   }
 `;
@@ -48,7 +48,10 @@ export const SearchBar = styled.div`
   height: 35px;
   width: 288px;
   background: transparent;
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1370px) {
+    width: 208px;
+  }
+  @media only screen and (max-width: 1240px) {
     display: none;
   }
 `;
@@ -62,7 +65,7 @@ export const AuthWrapper = styled.div`
   border: 1px solid #7248e7;
   border-radius: 10px;
   margin: 0 60px;
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     display: none;
   }
 `;

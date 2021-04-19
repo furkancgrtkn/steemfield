@@ -8,7 +8,7 @@ export const Card = styled.div`
   background-color: #30385a;
   position: relative;
 
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     padding-left: 20px;
     width: 280px;
     height: 280px;
@@ -32,7 +32,7 @@ export const CardBlock = styled.div`
   );
   padding: 11px 12px;
   padding-bottom: 19px;
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     height: 150px;
   }
 `;
@@ -74,7 +74,7 @@ export const Title = styled.div`
     margin-right: 9px;
   }
 
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     & > h1 {
       font-size: 16px;
       line-height: 20px;
@@ -97,7 +97,7 @@ export const UserImage = styled.div`
     border-radius: 100%;
   }
 
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     width: 40px;
     height: 40px;
   }
@@ -111,7 +111,7 @@ export const Description = styled.p`
   color: #ffffff;
   margin-bottom: 12px;
 
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     font-size: 12px;
     line-height: 16px;
   }
@@ -144,7 +144,7 @@ export const Footer = styled.div`
     color: #ffffff;
   }
 
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     & span {
       font-size: 14px;
       line-height: 16px;

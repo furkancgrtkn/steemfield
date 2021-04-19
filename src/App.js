@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./pages/Homepage/Homepage";
+import Profile from "./pages/Profile/Profile";
 function App() {
   return (
     <BrowserRouter>
       <main>
-        <Navbar />
         <Switch>
           <Route path="/" component={Homepage} exact />
+          <Route path="/profile" component={Profile} exact />
         </Switch>
       </main>
     </BrowserRouter>

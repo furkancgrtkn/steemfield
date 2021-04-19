@@ -4,6 +4,7 @@ import CoinCard from "../../components/CoinCard/CoinCard";
 import PostBoard from "../../components/PostBoard/PostBoard";
 import BannerBox from "../../components/BannerBox/BannerBox";
 import HomePosts from "../../components/HomePosts/HomePosts";
+import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -27,6 +28,7 @@ function Homepage() {
   }, []);
   return (
     <div>
+      <Navbar />
       <SwiperContainer>
         <Swiper spaceBetween={spaceBetweens} slidesPerView="auto">
           {MapCounter.map((mapItem, index) => (

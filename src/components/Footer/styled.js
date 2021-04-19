@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   margin-top: 55px;
   margin-left: 55px;
   margin-right: 55px;
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -52,10 +52,10 @@ export const InfoCol = styled.div`
 export const ColsContainer = styled.div`
   padding: 15px 47px 15px 23px;
   display: flex;
-  @media (max-width: 1170px) {
+  @media only screen and (max-width: 1170px) {
     flex-direction: column;
   }
-  @media (max-width: 450px) {
+  @media only screen and (max-width: 450px) {
     padding: 15px 23px;
   }
 `;
@@ -64,11 +64,11 @@ export const SectionCols = styled.div`
   padding-top: 14px;
   display: flex;
   margin-left: auto;
-  @media (max-width: 1170px) {
+  @media only screen and (max-width: 1170px) {
     margin-left: unset;
     padding-top: 25px;
   }
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     flex-direction: column;
   }
 `;
@@ -82,14 +82,14 @@ export const Col = styled.div`
     margin-bottom: unset;
   }
 
-  @media (max-width: 1700px) {
+  @media only screen and (max-width: 1700px) {
     margin-left: 100px;
   }
-  @media (max-width: 1170px) {
+  @media only screen and (max-width: 1170px) {
     margin-left: unset;
     margin-right: 50px;
   }
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     margin-bottom: 20px;
   }
 `;
@@ -165,12 +165,12 @@ export const CoinsRow = styled.div`
     margin-left: 9px;
   }
 
-  @media (max-width: 1700px) {
+  @media only screen and (max-width: 1700px) {
     & > h3 {
       padding: 0 10px;
     }
   }
-  @media (max-width: 1170px) {
+  @media only screen and (max-width: 1170px) {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 23px;
@@ -182,7 +182,7 @@ export const CoinsRow = styled.div`
       padding-bottom: 20px;
     }
   }
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     margin-top: 10px;
   }
 `;
@@ -208,7 +208,7 @@ export const Bottom = styled.div`
     transition: 0.1s;
   }
 
-  @media (max-width: 500px) {
+  @media only screen and (max-width: 500px) {
     padding-left: 0px;
     padding-right: 0px;
     justify-content: space-evenly;
@@ -217,7 +217,7 @@ export const Bottom = styled.div`
     }
   }
 
-  @media (max-width: 400px) {
+  @media only screen and (max-width: 400px) {
     flex-direction: column;
     margin-left: 23px;
     & > h3 {

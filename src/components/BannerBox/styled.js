@@ -6,7 +6,7 @@ export const BannerBox = styled.div`
   width: 100%;
   height: 368px;
   margin-top: 80px;
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     margin-top: 40px;
     height: 268px;
     margin-bottom: 40px;
@@ -49,7 +49,7 @@ export const BoxInnerHeader = styled.h3`
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 30px;
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     font-size: 26px;
     line-height: 26px;
   }
@@ -66,7 +66,7 @@ export const BoxInnerDesc = styled.h3`
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 60px;
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 30px;
@@ -89,7 +89,7 @@ export const BoxInnerButton = styled.button`
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     font-size: 26px;
     line-height: 26px;
   }

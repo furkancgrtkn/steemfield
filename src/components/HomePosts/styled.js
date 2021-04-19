@@ -18,7 +18,7 @@ export const FilterButtonsItem = styled.li`
   width: fit-content;
   height: fit-content;
   margin-right: 60px;
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     margin-right: 15px;
   }
 `;
@@ -34,7 +34,7 @@ export const FilterButton = styled.button`
   color: ${(props) => (props.active ? "#ffffff" : "#4F4F4F")};
   background: transparent;
   border: none;
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     font-size: 16px;
     line-height: 20px;
   }

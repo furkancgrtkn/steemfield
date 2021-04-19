@@ -11,11 +11,11 @@ export const SwiperContainer = styled.div`
   & .swiper-slide {
     width: fit-content;
   }
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     padding-left: 20px;
   }
 
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     height: 280px;
     margin-top: 10px;
   }
@@ -33,7 +33,7 @@ export const SwiperContainerCoin = styled.div`
     width: fit-content;
   }
 
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     padding-left: 20px;
   }
 `;
@@ -46,7 +46,7 @@ export const CoinHeaderWrapper = styled.div`
   align-items: center;
   padding: 0 55px;
   margin-top: 40px;
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     padding: 0 20px;
   }
 `;
@@ -59,7 +59,7 @@ export const CoinHeader = styled.h2`
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #ffffff;
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     font-size: 16px;
     line-height: 20px;
   }
@@ -76,7 +76,7 @@ export const CoinHeaderButton = styled.button`
   color: #ffffff;
   background: transparent;
   border: none;
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     font-size: 16px;
     line-height: 20px;
   }
@@ -89,10 +89,10 @@ export const PostWrapper = styled.div`
   justify-content: space-between;
   padding: 0 55px;
   margin-top: 40px;
-  @media (max-width: 1580px) {
+  @media only screen and (max-width: 1580px) {
     padding: 0 20px 0 55px;
   }
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     padding: 0 20px;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +105,7 @@ export const PostWrapperLeft = styled.div`
   width: 360px;
   height: fit-content;
   flex-direction: column;
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     width: 100%;
   }
 `;
@@ -116,7 +116,7 @@ export const PostWrapperRight = styled.div`
   flex-direction: column;
   height: fit-content;
   padding-left: 20px;
-  @media (max-width: 1350px) {
+  @media only screen and (max-width: 1350px) {
     width: 100%;
     padding-left: 0px;
   }
