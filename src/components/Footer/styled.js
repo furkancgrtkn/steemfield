@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   margin-top: 55px;
   margin-left: 55px;
   margin-right: 55px;
-  @media only screen and (max-width: 1350px) {
+  @media only screen and (max-width: 1400px) {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -126,6 +126,7 @@ export const CoinsRow = styled.div`
   border-bottom: 1px solid #c2c1c1;
   padding: 16px 0;
   margin-top: 42px;
+  justify-content: space-between;
 
   & > h3 {
     user-select: none;
@@ -137,7 +138,6 @@ export const CoinsRow = styled.div`
     font-size: 15px;
     color: #ffffff;
     opacity: 0.7;
-    padding: 0 58.5px;
     line-height: 22px;
   }
 
@@ -149,7 +149,6 @@ export const CoinsRow = styled.div`
   & > h3:first-child {
     cursor: unset;
     padding: 0;
-    margin-right: auto;
   }
 
   & > h3:first-child:active {
@@ -158,7 +157,6 @@ export const CoinsRow = styled.div`
 
   & > h3:last-child {
     padding: 0;
-    margin-left: auto;
   }
 
   & > h3 > svg {
@@ -170,7 +168,7 @@ export const CoinsRow = styled.div`
       padding: 0 10px;
     }
   }
-  @media only screen and (max-width: 1170px) {
+  @media only screen and (max-width: 1400px) {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 23px;
@@ -180,6 +178,9 @@ export const CoinsRow = styled.div`
     }
     & > h3:first-child {
       padding-bottom: 20px;
+    }
+    & > h3:last-child {
+      margin-left: auto;
     }
   }
   @media only screen and (max-width: 740px) {
