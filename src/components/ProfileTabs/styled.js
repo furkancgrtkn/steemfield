@@ -15,6 +15,9 @@ export const TabContainer = styled.div`
   @media only screen and (max-width: 1100px) {
     margin-top: 0px;
   }
+  @media only screen and (max-width: 840px) {
+    padding: 0 20px;
+  }
 `;
 
 export const Tabs = styled.div`
@@ -103,6 +106,15 @@ export const Buttons = styled.div`
       & span {
         font-size: 16px;
         line-height: 20px;
+      }
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    & button {
+      & img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
       }
     }
   }

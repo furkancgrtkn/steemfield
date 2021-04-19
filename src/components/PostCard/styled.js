@@ -14,7 +14,7 @@ export const PostCard = styled.div`
   @media only screen and (max-width: 1580px) {
     height: 160px;
   }
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     flex-direction: column;
     height: 340px;
     justify-content: center;
@@ -39,7 +39,7 @@ export const ImageWrapper = styled.div`
   @media only screen and (max-width: 1580px) {
     width: 140px;
   }
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     width: 100%;
     height: 140px;
   }
@@ -69,7 +69,7 @@ export const PostCardContent = styled.div`
     width: calc(100% - 140px);
     padding-left: 15px;
   }
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     margin-top: 10px;
     width: 100%;
     padding: 5px;
@@ -85,7 +85,7 @@ export const ContentHeader = styled.div`
   height: fit-content;
   margin: 15px 0;
   justify-content: space-between;
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 0;
@@ -108,7 +108,7 @@ export const ContentHeaderLeft = styled.div`
 
 export const ContentHeaderRight = styled.div`
   display: flex;
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     margin-top: 10px;
   }
   @media only screen and (max-width: 600px) {
@@ -174,11 +174,11 @@ export const UserName = styled.div`
     font-size: 18px;
     line-height: 22px;
   }
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     font-size: 16px;
     line-height: 20px;
   }
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     font-size: 14px;
     line-height: 18px;
   }
@@ -197,7 +197,7 @@ export const Info = styled.div`
   @media only screen and (max-width: 1450px) {
     margin-left: 20px;
   }
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     margin-left: 15px;
   }
   @media only screen and (max-width: 600px) {
@@ -220,7 +220,7 @@ export const InfoText = styled.span`
     font-size: 14px;
     line-height: 16px;
   }
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     font-size: 12px;
     line-height: 14px;
   }
@@ -238,7 +238,7 @@ export const Stats = styled.div`
     margin-left: 13px;
   }
 
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     margin-left: 0;
     margin-right: 13px;
   }
@@ -262,7 +262,7 @@ export const StatsText = styled.span`
     font-size: 16px;
     line-height: 20px;
   }
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     font-size: 14px;
     line-height: 18px;
   }
@@ -285,7 +285,7 @@ export const DescHeader = styled.h2`
     font-size: 18px;
     line-height: 22px;
   }
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     font-size: 14px;
     line-height: 16px;
   }
@@ -307,7 +307,7 @@ export const DescText = styled.p`
     line-height: 20px;
   }
 
-  @media only screen and (max-width: 940px) {
+  @media only screen and (max-width: 1040px) {
     font-size: 12px;
     line-height: 14px;
   }

@@ -6,6 +6,10 @@ export const BannerContainer = styled.div`
   width: 100%;
   height: fit-content;
   padding: 0 30px;
+
+  @media only screen and (max-width: 840px) {
+    padding: 0 20px;
+  }
 `;
 
 export const BannerWrapper = styled.div`
@@ -76,6 +80,14 @@ export const ProfileInfosBottom = styled.div`
     margin-right: 0;
     border: none;
   }
+  @media only screen and (max-width: 680px) {
+    flex-direction: column;
+    align-items: flex-start;
+    & div:last-child {
+      margin-right: 0;
+      border-left: 2px solid #2af2ff;
+    }
+  }
 `;
 
 export const UserName = styled.div`
@@ -96,6 +108,10 @@ export const UserName = styled.div`
     line-height: 28px;
     margin-right: 25px;
     padding-left: 85px;
+  }
+  @media only screen and (max-width: 500px) {
+    margin-right: 0px;
+    font-size: 16px;
   }
 `;
 
@@ -189,6 +205,13 @@ export const InfoText = styled.div`
 
   @media only screen and (max-width: 680px) {
     margin-top: 10px;
-    flex-direction: column;
+    border-right: 0;
+    padding-right: 0px;
+    padding-left: 23px;
+    margin-left: 10px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 18px;
+    border-left: 2px solid #2af2ff;
   }
 `;
