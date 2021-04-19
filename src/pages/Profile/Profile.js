@@ -3,6 +3,7 @@ import { ProfileWrapper } from "./styled";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import ProfileBanner from "../../components/ProfileBanner/ProfileBanner";
+import ProfileTabs from "../../components/ProfileTabs/ProfileTabs";
 import PostCard from "../../components/PostCard/PostCard";
 
 function Profile() {
@@ -10,6 +11,7 @@ function Profile() {
     <ProfileWrapper>
       <Navbar />
       <ProfileBanner />
+      <ProfileTabs />
       <Footer />
     </ProfileWrapper>
   );
