@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   BannerContainer,
   BannerWrapper,
@@ -7,6 +7,7 @@ import {
   UserImage,
   UserName,
   UserElips,
+  Times,
 } from "./styled";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import CalendarIcon from "../../icons/calendaricon.svg";
@@ -38,8 +39,14 @@ function ProfileBanner() {
             Pelin <span>Özkan</span>
           </UserName>
           <UserElips>(124)</UserElips>
-
-          <img src={CalendarIcon} alt="Calendar Icon" />
+          <Times>
+            <img src={CalendarIcon} alt="Calendar Icon" />
+            <span>Joined May 2017</span>
+          </Times>
+          <Times>
+            <img src={CalendarIcon} alt="Calendar Icon" />
+            <span>Active 4 hours ago</span>
+          </Times>
         </ProfileInfosTop>
       </ProfileInfos>
     </BannerContainer>

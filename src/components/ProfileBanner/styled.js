@@ -86,3 +86,26 @@ export const UserElips = styled.div`
   line-height: 15px;
   color: #ffffff;
 `;
+
+export const Times = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+
+  & img {
+    width: 26px;
+    height: 26px;
+  }
+
+  & span {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 2px;
+    color: #ffffff;
+  }
+`;
