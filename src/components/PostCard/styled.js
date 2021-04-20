@@ -14,7 +14,8 @@ export const PostCard = styled.div`
   @media only screen and (max-width: 1700px) {
     height: 160px;
   }
-  @media only screen and (max-width: 1040px) {
+
+  @media only screen and (max-width: 1160px) {
     flex-direction: column;
     height: 340px;
     justify-content: center;
@@ -39,7 +40,11 @@ export const ImageWrapper = styled.div`
   @media only screen and (max-width: 1700px) {
     width: 140px;
   }
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1430px) {
+    width: 110px;
+    height: 130px;
+  }
+  @media only screen and (max-width: 1160px) {
     width: 100%;
     height: 140px;
   }
@@ -66,16 +71,38 @@ export const IconSaveWrapper = styled.div`
   background-color: transparent;
   & img {
     object-fit: cover;
-    width: 24px;
+    width: 23px;
     height: 27px;
   }
 
   margin-left: 40px;
   @media only screen and (max-width: 1750px) {
-    margin-left: 0px;
+    margin-left: 15px;
     & img {
       width: 18px;
-      height: 21px;
+      padding-top: 2px;
+      height: auto;
+    }
+  }
+
+  @media only screen and (max-width: 1160px) {
+    margin-left: 0px;
+    & img {
+      width: 14px;
+      height: auto;
+      padding-top: 4px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+
+    & img {
+      padding-top: 0px;
+      width: 14px;
+      height: auto;
     }
   }
 `;
@@ -90,7 +117,10 @@ export const PostCardContent = styled.div`
     width: calc(100% - 140px);
     padding-left: 15px;
   }
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1430px) {
+    width: calc(100% - 110px);
+  }
+  @media only screen and (max-width: 1160px) {
     margin-top: 10px;
     width: 100%;
     padding: 5px;
@@ -106,7 +136,7 @@ export const ContentHeader = styled.div`
   height: fit-content;
   margin: 15px 0;
   justify-content: space-between;
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1160px) {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 0;
@@ -129,7 +159,7 @@ export const ContentHeaderLeft = styled.div`
 
 export const ContentHeaderRight = styled.div`
   display: flex;
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1160px) {
     margin-top: 10px;
   }
   @media only screen and (max-width: 600px) {
@@ -191,13 +221,23 @@ export const UserName = styled.div`
   line-height: 24px;
   margin-left: 10px;
   color: #ffffff;
-  @media only screen and (max-width: 1700px) {
+  @media only screen and (max-width: 1875px) {
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 18px;
   }
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1700px) {
     font-size: 14px;
     line-height: 18px;
+  }
+  @media only screen and (max-width: 1160px) {
+    max-width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   @media only screen and (max-width: 600px) {
     margin-left: 0px;
@@ -217,17 +257,18 @@ export const Info = styled.div`
   @media only screen and (max-width: 1500px) {
     margin-left: 20px;
   }
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1160px) {
     margin-left: 15px;
   }
   @media only screen and (max-width: 600px) {
     margin-left: 0px;
+    margin-right: 4px;
     margin-top: 3px;
   }
 `;
 
 export const InfoText = styled.span`
-  display: flex;
+  display: block;
   margin-left: 4px;
   align-items: center;
   font-family: "Montserrat", sans-serif;
@@ -236,13 +277,21 @@ export const InfoText = styled.span`
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
+  max-width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   @media only screen and (max-width: 1700px) {
     font-size: 14px;
     line-height: 16px;
   }
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1160px) {
     font-size: 12px;
     line-height: 14px;
+    max-width: 101px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 `;
 
@@ -258,7 +307,7 @@ export const Stats = styled.div`
     margin-left: 13px;
   }
 
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1160px) {
     margin-left: 0;
     margin-right: 13px;
   }
@@ -282,7 +331,7 @@ export const StatsText = styled.span`
     font-size: 16px;
     line-height: 20px;
   }
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1160px) {
     font-size: 14px;
     line-height: 18px;
   }
@@ -305,7 +354,7 @@ export const DescHeader = styled.h2`
     font-size: 18px;
     line-height: 22px;
   }
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1160px) {
     font-size: 14px;
     line-height: 16px;
   }
@@ -327,7 +376,7 @@ export const DescText = styled.p`
     line-height: 20px;
   }
 
-  @media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1160px) {
     font-size: 12px;
     line-height: 14px;
     height: 40px;

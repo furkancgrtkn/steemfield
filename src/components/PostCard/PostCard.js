@@ -52,7 +52,7 @@ function PostCard() {
                 width="100%"
               />
             </UserImage>
-            <UserName>max-pro</UserName>
+            <UserName>max-promax-promax-pro</UserName>
             <LeftSection>
               <Info>
                 <BiTime color="#FFFFFF" size="17" />
@@ -60,7 +60,7 @@ function PostCard() {
               </Info>
               <Info>
                 <FaHashtag color="#7248E7" size="17" />
-                <InfoText>random</InfoText>
+                <InfoText>randomlongtext</InfoText>
               </Info>
             </LeftSection>
           </ContentHeaderLeft>
@@ -93,11 +93,9 @@ function PostCard() {
               <Stats>
                 <RiArrowGoForwardLine color="#ffffff" size="17" />
               </Stats>
-              <Stats>
-                <IconSaveWrapper>
-                  <img src={SaveIcon} alt="Exchange Icon" />
-                </IconSaveWrapper>
-              </Stats>
+              <IconSaveWrapper>
+                <img src={SaveIcon} alt="Exchange Icon" />
+              </IconSaveWrapper>
             </RightSection>
           </ContentHeaderRight>
         </ContentHeader>
