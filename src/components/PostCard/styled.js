@@ -211,7 +211,7 @@ export const UserName = styled.div`
   margin-left: 10px;
   color: #ffffff;
   @media only screen and (max-width: 1875px) {
-    max-width: 130px;
+    max-width: 100px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -266,7 +266,7 @@ export const InfoText = styled.span`
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
-  max-width: 130px;
+  max-width: 100px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -277,10 +277,6 @@ export const InfoText = styled.span`
   @media only screen and (max-width: 1160px) {
     font-size: 12px;
     line-height: 14px;
-    max-width: 101px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 `;
 
