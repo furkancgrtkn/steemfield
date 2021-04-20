@@ -16,7 +16,7 @@ export const SwiperContainer = styled.div`
   }
 
   @media only screen and (max-width: 1100px) {
-    height: 280px;
+    height: 320px;
     margin-top: 10px;
   }
 `;

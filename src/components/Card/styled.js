@@ -10,8 +10,8 @@ export const Card = styled.div`
 
   @media only screen and (max-width: 1100px) {
     padding-left: 20px;
-    width: 280px;
-    height: 280px;
+    width: 320px;
+    height: 320px;
   }
 `;
 
