@@ -66,20 +66,15 @@ export const IconWrapper = styled.div`
 
 export const IconSaveWrapper = styled.div`
   display: flex;
-  width: fit-content;
-  height: fit-content;
+  width: auto;
+  height: auto;
   background-color: transparent;
-  & img {
-    object-fit: cover;
-    width: 23px;
-    height: 27px;
-  }
 
   margin-left: 40px;
   @media only screen and (max-width: 1750px) {
     margin-left: 15px;
     & img {
-      width: 18px;
+      width: 16px;
       padding-top: 2px;
       height: auto;
     }
@@ -87,11 +82,6 @@ export const IconSaveWrapper = styled.div`
 
   @media only screen and (max-width: 1160px) {
     margin-left: 0px;
-    & img {
-      width: 14px;
-      height: auto;
-      padding-top: 4px;
-    }
   }
 
   @media only screen and (max-width: 600px) {
@@ -102,7 +92,6 @@ export const IconSaveWrapper = styled.div`
     & img {
       padding-top: 0px;
       width: 14px;
-      height: auto;
     }
   }
 `;
