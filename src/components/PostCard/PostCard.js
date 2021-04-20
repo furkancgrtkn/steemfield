@@ -18,6 +18,7 @@ import {
   LeftSection,
   IconWrapper,
   RightSection,
+  IconSaveWrapper,
 } from "./styled";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { BiTime } from "react-icons/bi";
@@ -26,6 +27,7 @@ import { FaHeartBroken, FaComment, FaHashtag } from "react-icons/fa";
 import { RiArrowGoForwardLine } from "react-icons/ri";
 import { FiRepeat } from "react-icons/fi";
 import ExchangeIcon from "../../icons/exchange.svg";
+import SaveIcon from "../../icons/saveicon.svg";
 function PostCard() {
   return (
     <Container>
@@ -90,6 +92,11 @@ function PostCard() {
               </Stats>
               <Stats>
                 <RiArrowGoForwardLine color="#ffffff" size="17" />
+              </Stats>
+              <Stats>
+                <IconSaveWrapper>
+                  <img src={SaveIcon} alt="Exchange Icon" />
+                </IconSaveWrapper>
               </Stats>
             </RightSection>
           </ContentHeaderRight>

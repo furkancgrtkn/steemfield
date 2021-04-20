@@ -11,7 +11,7 @@ export const PostCard = styled.div`
   border-radius: 30px;
   margin: 10px 0;
 
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     height: 160px;
   }
   @media only screen and (max-width: 1040px) {
@@ -36,7 +36,7 @@ export const ImageWrapper = styled.div`
     object-fit: cover;
     border-radius: 30px;
   }
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     width: 140px;
   }
   @media only screen and (max-width: 1040px) {
@@ -59,13 +59,34 @@ export const IconWrapper = styled.div`
   margin-right: 5px;
 `;
 
+export const IconSaveWrapper = styled.div`
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  & img {
+    object-fit: cover;
+    width: 24px;
+    height: 27px;
+  }
+
+  margin-left: 40px;
+  @media only screen and (max-width: 1750px) {
+    margin-left: 0px;
+    & img {
+      width: 18px;
+      height: 21px;
+    }
+  }
+`;
+
 export const PostCardContent = styled.div`
   display: flex;
   width: calc(100% - 157px);
   height: 160px;
   flex-direction: column;
   padding-left: 30px;
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     width: calc(100% - 140px);
     padding-left: 15px;
   }
@@ -153,7 +174,7 @@ export const UserImage = styled.div`
     border-radius: 49px;
   }
 
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     width: 40px;
     height: 40px;
   }
@@ -170,13 +191,9 @@ export const UserName = styled.div`
   line-height: 24px;
   margin-left: 10px;
   color: #ffffff;
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     font-size: 18px;
     line-height: 22px;
-  }
-  @media only screen and (max-width: 1040px) {
-    font-size: 16px;
-    line-height: 20px;
   }
   @media only screen and (max-width: 1040px) {
     font-size: 14px;
@@ -194,10 +211,10 @@ export const Info = styled.div`
   display: flex;
   margin-left: 50px;
   align-items: center;
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     margin-left: 35px;
   }
-  @media only screen and (max-width: 1450px) {
+  @media only screen and (max-width: 1500px) {
     margin-left: 20px;
   }
   @media only screen and (max-width: 1040px) {
@@ -219,7 +236,7 @@ export const InfoText = styled.span`
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     font-size: 14px;
     line-height: 16px;
   }
@@ -233,7 +250,7 @@ export const Stats = styled.div`
   display: flex;
   margin-left: 20px;
   align-items: center;
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     margin-left: 15px;
   }
 
@@ -261,7 +278,7 @@ export const StatsText = styled.span`
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     font-size: 16px;
     line-height: 20px;
   }
@@ -284,7 +301,7 @@ export const DescHeader = styled.h2`
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     font-size: 18px;
     line-height: 22px;
   }
@@ -305,7 +322,7 @@ export const DescText = styled.p`
   height: 43px;
   width: 100%;
   overflow: hidden;
-  @media only screen and (max-width: 1580px) {
+  @media only screen and (max-width: 1700px) {
     font-size: 14px;
     line-height: 20px;
   }
