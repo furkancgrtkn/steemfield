@@ -56,7 +56,7 @@ export const SearchBar = styled.div`
   @media only screen and (max-width: 1370px) {
     width: 208px;
   }
-  @media only screen and (max-width: 1240px) {
+  @media only screen and (max-width: 1100px) {
     display: none;
   }
 `;

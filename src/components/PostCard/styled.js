@@ -223,13 +223,14 @@ export const UserName = styled.div`
     line-height: 18px;
   }
   @media only screen and (max-width: 1160px) {
-    max-width: 190px;
+    max-width: 130px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
   @media only screen and (max-width: 600px) {
     margin-left: 0px;
+    max-width: 190px;
     position: absolute;
     top: 65px;
     white-space: nowrap;
