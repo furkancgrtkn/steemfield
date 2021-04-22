@@ -1,69 +1,11 @@
 import React from "react";
-import {
-  Wrapper,
-  Col,
-  Title,
-  Row,
-  Logo,
-  InfoCol,
-  CoinsRow,
-  Bottom,
-  SectionCols,
-  ColsContainer,
-} from "./styled";
+import { Wrapper, CoinsRow, Bottom } from "./styled";
 import { Link } from "react-router-dom";
 import { IoChevronForwardOutline } from "react-icons/io5";
 
 function Footer() {
   return (
     <Wrapper>
-      <ColsContainer>
-        <InfoCol>
-          <Link to="/">
-            <Logo>
-              Steem<span>field</span>
-            </Logo>
-          </Link>
-          <h4>American Trade Exchange, Inc.</h4>
-          <h4>MSB; 310001204483650</h4>
-          <h4>340 N Broadway</h4>
-          <h4>Suite 200A</h4>
-          <h4>Green Bay. WI 54303</h4>
-        </InfoCol>
-        <SectionCols>
-          <Col>
-            <Title>Discover</Title>
-            <Row>Buy & Sell</Row>
-            <Row>Merchant</Row>
-            <Row>Giving black</Row>
-            <Row>Support</Row>
-          </Col>
-
-          <Col>
-            <Title>About</Title>
-            <Row>Team</Row>
-            <Row>Careers</Row>
-            <Row>Blog</Row>
-            <Row>Press</Row>
-          </Col>
-
-          <Col>
-            <Title>Resources</Title>
-            <Row>Security</Row>
-            <Row>Global</Row>
-            <Row>Charts</Row>
-            <Row>OTC</Row>
-          </Col>
-
-          <Col>
-            <Title>Secial</Title>
-            <Row>Facebook</Row>
-            <Row>Twitter</Row>
-            <Row>Instagram</Row>
-          </Col>
-        </SectionCols>
-      </ColsContainer>
-
       <CoinsRow>
         <h3>Digital currencis;</h3>
         <h3>VERTCOIN</h3>
