@@ -29,6 +29,7 @@ export const Item = styled.div`
   @media only screen and (max-width: 1200px) {
     flex-direction: column;
     align-items: flex-start;
+    padding: 20px;
   }
 `;
 
@@ -61,6 +62,9 @@ export const Top = styled.h3`
   & > span {
     color: #2af2ff;
   }
+  @media only screen and (max-width: 1200px) {
+    font-size: 14px;
+  }
 `;
 
 export const Bottom = styled.span`
@@ -68,6 +72,9 @@ export const Bottom = styled.span`
   font-weight: 600;
   font-size: 15px;
   color: #ffffff;
+  @media only screen and (max-width: 1200px) {
+    font-size: 12px;
+  }
 `;
 
 export const SP = styled.span`
@@ -76,6 +83,9 @@ export const SP = styled.span`
   font-size: 20px;
   color: #ffffff;
   margin-left: auto;
+  @media only screen and (max-width: 1200px) {
+    font-size: 12px;
+  }
 `;
 
 export const FilterContainer = styled.div`
