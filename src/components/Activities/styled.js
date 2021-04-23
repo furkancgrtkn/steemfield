@@ -91,17 +91,17 @@ export const SP = styled.span`
 export const FilterContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 39px 33px 0 41px;
+  padding: 39px 33px 33px 41px;
   width: 320px;
   height: 749px;
   background: #1a2249;
   margin-left: 63px;
   @media only screen and (max-width: 800px) {
     margin-left: unset;
+    height: unset;
   }
   @media only screen and (max-width: 400px) {
     width: 90%;
-    height: unset;
   }
 `;
 
@@ -112,7 +112,7 @@ export const SearchBar = styled.div`
   }
 `;
 
-export const FilterButton = styled.div`
+export const FilterButton = styled.button`
   width: 141px;
   padding: 6px 10px;
   background: #7248e7;
@@ -120,7 +120,6 @@ export const FilterButton = styled.div`
   display: flex;
   align-items: center;
   margin-top: 46px;
-  margin-bottom: 31px;
   & > span {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -142,13 +141,64 @@ export const OptionContainer = styled.div`
 
 export const OptionTitle = styled.span`
   margin-bottom: 27px;
+  margin-top: 36px;
 `;
 
-export const Option = styled.div`
-  display: flex;
+export const Option = styled.label`
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
   align-items: center;
-  & > span {
-    margin-left: 10px;
-  }
   margin-bottom: 41px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  display: block;
+  position: relative;
+  padding-left: 31px;
+  margin-bottom: 12px;
+  white-space: nowrap;
+  line-height: 20px;
+  & > input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  & > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 2.33px solid #7248e7;
+    border-radius: 5px;
+  }
+
+  &:hover input ~ span {
+    background-color: #7248e752;
+  }
+  & input:checked ~ span {
+    background-color: transparent;
+  }
+  & span:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  & input:checked ~ span:after {
+    display: block;
+  }
+  & span:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #7248e7;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
 `;

@@ -102,34 +102,41 @@ function Activities() {
           <OptionTitle>GENERAL</OptionTitle>
           <Option>
             <input type="checkbox" />
-            <span>Votes</span>
+            <span></span>
+            Votes
           </Option>
           <Option>
             <input type="checkbox" />
-            <span>Comments</span>
+            <span></span>
+            Comments
           </Option>
           <Option>
             <input type="checkbox" />
-            <span>Reples</span>
+            <span></span>
+            Reples
           </Option>
           <Option>
             <input type="checkbox" />
-            <span>Show Others</span>
+            <span></span>
+            Show Others
           </Option>
         </OptionContainer>
         <OptionContainer>
           <OptionTitle>REWARDS</OptionTitle>
           <Option>
             <input type="checkbox" />
-            <span>Author Rewards</span>
+            <span></span>
+            Author Rewards
           </Option>
           <Option>
             <input type="checkbox" />
-            <span>Curation Rewards</span>
+            <span></span>
+            Curation Rewards
           </Option>
           <Option>
             <input type="checkbox" />
-            <span>Benefactor Rewards</span>
+            <span></span>
+            Benefactor Rewards
           </Option>
         </OptionContainer>
       </FilterContainer>
