@@ -1,6 +1,5 @@
 import React from "react";
 import { Wrapper, CoinsRow, Bottom } from "./styled";
-import { Link } from "react-router-dom";
 import { IoChevronForwardOutline } from "react-icons/io5";
 
 function Footer() {

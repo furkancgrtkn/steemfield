@@ -28,19 +28,21 @@ import { RiArrowGoForwardLine } from "react-icons/ri";
 import { FiRepeat } from "react-icons/fi";
 import ExchangeIcon from "../../icons/exchange.svg";
 import SaveIcon from "../../icons/saveicon.svg";
-function PostCard() {
+function PostCard({ hasImage = true }) {
   return (
-    <Container>
-      <ImageWrapper>
-        <LazyLoadImage
-          alt="User"
-          height="100%"
-          effect="opacity"
-          src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618619242/d736a5e43f14ee35df2de3d699f00aa1_ymfhub.jpg"
-          width="100%"
-        />
-      </ImageWrapper>
-      <PostCardContent>
+    <Container hasImage={hasImage}>
+      {hasImage && (
+        <ImageWrapper>
+          <LazyLoadImage
+            alt="User"
+            height="100%"
+            effect="opacity"
+            src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618619242/d736a5e43f14ee35df2de3d699f00aa1_ymfhub.jpg"
+            width="100%"
+          />
+        </ImageWrapper>
+      )}
+      <PostCardContent hasImage={hasImage}>
         <ContentHeader>
           <ContentHeaderLeft>
             <UserImage>
