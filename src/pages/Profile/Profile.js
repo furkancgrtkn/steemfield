@@ -13,6 +13,8 @@ import {
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Communities from "../../components/Communities/Communities";
+import Activities from "../../components/Activities/Activities";
+
 import NotificationUserCard from "../../components/NotificationUserCard/NotificationUserCard";
 import ProfileBanner from "../../components/ProfileBanner/ProfileBanner";
 import ProfileTabs from "../../components/ProfileTabs/ProfileTabs";
@@ -162,6 +164,7 @@ function Profile() {
             </Notifications>
           </>
         )}
+        {section === 6 && <Activities />}
       </PostSection>
       <Footer />
     </ProfileWrapper>
