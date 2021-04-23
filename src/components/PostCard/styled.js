@@ -16,13 +16,10 @@ export const PostCard = styled.div`
   }
 
   @media only screen and (max-width: 1160px) {
+    margin-top: ${(props) => (props.hasImage ? "10px" : "0")};
     flex-direction: column;
-    height: 340px;
-    justify-content: center;
-    padding: 0 15px 0 15px;
-  }
-  @media only screen and (max-width: 600px) {
     height: fit-content;
+    justify-content: center;
     padding: 15px;
   }
 `;
@@ -98,19 +95,22 @@ export const IconSaveWrapper = styled.div`
 
 export const PostCardContent = styled.div`
   display: flex;
-  width: calc(100% - 157px);
+  width: ${(props) =>
+    props.hasImage === true ? "calc(100% - 157px)" : "100%"};
   height: 160px;
   flex-direction: column;
   padding-left: 30px;
   @media only screen and (max-width: 1700px) {
-    width: calc(100% - 140px);
+    width: ${(props) =>
+      props.hasImage === true ? "calc(100% - 140px)" : "100%"};
     padding-left: 15px;
   }
   @media only screen and (max-width: 1430px) {
-    width: calc(100% - 110px);
+    width: ${(props) =>
+      props.hasImage === true ? "calc(100% - 110px)" : "100%"};
   }
   @media only screen and (max-width: 1160px) {
-    margin-top: 10px;
+    margin-top: ${(props) => (props.hasImage ? "10px" : "0px")};
     width: 100%;
     padding: 5px;
     height: fit-content;
