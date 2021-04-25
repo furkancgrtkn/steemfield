@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Logo,
   Navbar as Container,
@@ -15,8 +15,11 @@ import {
 } from "./styled";
 import { Link } from "react-router-dom";
 import SearchBox from "../SearchBox/SearchBox";
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 
 function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <Container>
       <NavbarLeft>
@@ -35,11 +38,12 @@ function Navbar() {
           <AuthLine />
           <AuthButton color="#CCD2E3">Sign Up</AuthButton>
         </AuthWrapper>
-        <Menu>
+        <Menu onClick={() => setOpen(!open)}>
           <MenuBarOne />
           <MenuBarTwo />
           <MenuBarThree />
         </Menu>
+        <HamburgerMenu setOpen={setOpen} open={open} />
       </NavbarRight>
     </Container>
   );
